@@ -1,0 +1,24 @@
+/* nav */
+.navbar-nav {
+    margin-inline-start: auto;
+}
+
+/* mobile nav */
+.my-nav-mobile{
+    color: #fff;
+    background-color: #000;
+    z-index: 999 !important;
+}
+
+.my-nav-inner{
+    left: 0;
+    top: -1000%;
+    width: 100%;
+    transition: var(--trans);
+    z-index: 1 !important;
+    background-color: #3F3F3E;
+}
+
+.toogle-btn{
+    cursor: pointer;
+}

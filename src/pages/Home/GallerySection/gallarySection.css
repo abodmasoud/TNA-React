@@ -1,0 +1,33 @@
+.gallary-swiper-img {
+    max-width: 280px;
+}
+
+
+.gallary-container-fluid{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.gallary-swiper .swiper {
+    overflow: visible;
+}
+
+.gallary-swiper .swiper::after {
+    content: "";
+    background-color: var(--body-bg);
+    width: 100vw;
+    height: 120%;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 100%;
+    top: 50%;
+    z-index: 999;
+}
+
+@media (max-width: 991px) {
+    .gallary-swiper-img {
+        width: 100% !important;
+        object-fit: cover;
+    }
+}

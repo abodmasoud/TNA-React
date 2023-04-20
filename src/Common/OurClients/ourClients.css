@@ -1,0 +1,7 @@
+.our-clients{
+    background-color: #fff;
+}
+
+.our-clients *{
+    user-select: none;
+}
